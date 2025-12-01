@@ -1,0 +1,27 @@
+
+# Environnement virtuel Python
+venv/
+
+# Fichiers cache et compilés Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Données (Ne jamais versionner les datasets ou les données générées)
+data/raw/
+data/processed/
+
+# Modèles entraînés (fichiers binaires volumineux)
+models/
+
+# Fichiers de configuration IDE/Editeur
+.vscode/
+.idea/
+
+# Fichiers système (macOS et Windows)
+.DS_Store
+Thumbs.db
+
+# conda for CUDA training
+Miniconda3-latest-Linux-x86_64.sh

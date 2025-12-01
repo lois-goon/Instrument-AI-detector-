@@ -1,0 +1,19 @@
+theme = "tokyonight"
+
+[editor]
+mouse = true
+rulers = [80]
+auto-completion = true
+path-completion = true
+auto-format = true
+# On dit à Helix de n'afficher que les "error" 
+# pour les messages tout à droite de la ligne.
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+# Dans ~/.config/helix/config.toml
+
+
